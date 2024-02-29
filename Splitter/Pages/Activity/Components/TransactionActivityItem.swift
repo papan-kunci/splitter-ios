@@ -30,15 +30,15 @@ struct TransactionActivityItem: View {
     let mode: ActivityMode
     let subject: String
     let action: String
-    let action2: String?
-    let actionDesc: String
     let object: String
+    let actionDesc: String
+    let action2: String?
     let object2: String?
     let value: Double
     let date: Date
     let formattedDate: String
     
-    init(mode: ActivityMode, subject: String, action: String,object: String, actionDesc: String, action2: String? = nil, object2: String? = nil, value: Double, date: Date) {
+    init(mode: ActivityMode, subject: String, action: String, object: String, actionDesc: String, action2: String? = nil, object2: String? = nil, value: Double, date: Date) {
         self.mode = mode
         self.subject = subject
         self.action = action
