@@ -7,13 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		93087FBB2B88FB4500F60453 /* Dashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93087FBA2B88FB4500F60453 /* Dashboard.swift */; };
+		93087FBD2B89090E00F60453 /* FriendsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93087FBC2B89090E00F60453 /* FriendsPage.swift */; };
+		93087FBF2B89094D00F60453 /* GroupsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93087FBE2B89094D00F60453 /* GroupsPage.swift */; };
+		93087FC12B89098100F60453 /* ActivityPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93087FC02B89098100F60453 /* ActivityPage.swift */; };
+		93087FC32B89099D00F60453 /* AccountPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93087FC22B89099D00F60453 /* AccountPage.swift */; };
+		93087FC52B8C68BB00F60453 /* TransactionActivityItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93087FC42B8C68BB00F60453 /* TransactionActivityItem.swift */; };
+		93087FCF2B8CEC0000F60453 /* AccountRightArrow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93087FCE2B8CEC0000F60453 /* AccountRightArrow.swift */; };
+		93087FD12B8CEC1B00F60453 /* AccountListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93087FD02B8CEC1B00F60453 /* AccountListItem.swift */; };
+		93087FD32B8CEC6800F60453 /* AccountHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93087FD22B8CEC6800F60453 /* AccountHeader.swift */; };
 		93E84C332B615AAD00D4FEE6 /* SplitterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E84C322B615AAD00D4FEE6 /* SplitterApp.swift */; };
-		93E84C352B615AAD00D4FEE6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E84C342B615AAD00D4FEE6 /* ContentView.swift */; };
+		93E84C352B615AAD00D4FEE6 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E84C342B615AAD00D4FEE6 /* Calculator.swift */; };
 		93E84C372B615AAE00D4FEE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93E84C362B615AAE00D4FEE6 /* Assets.xcassets */; };
 		93E84C3A2B615AAE00D4FEE6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93E84C392B615AAE00D4FEE6 /* Preview Assets.xcassets */; };
 		93E84C442B615AAE00D4FEE6 /* SplitterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E84C432B615AAE00D4FEE6 /* SplitterTests.swift */; };
 		93E84C4E2B615AAF00D4FEE6 /* SplitterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E84C4D2B615AAF00D4FEE6 /* SplitterUITests.swift */; };
 		93E84C502B615AAF00D4FEE6 /* SplitterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E84C4F2B615AAF00D4FEE6 /* SplitterUITestsLaunchTests.swift */; };
+		93E84C5E2B615C8B00D4FEE6 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E84C5D2B615C8B00D4FEE6 /* Color.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +44,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		93087FBA2B88FB4500F60453 /* Dashboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dashboard.swift; sourceTree = "<group>"; };
+		93087FBC2B89090E00F60453 /* FriendsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsPage.swift; sourceTree = "<group>"; };
+		93087FBE2B89094D00F60453 /* GroupsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsPage.swift; sourceTree = "<group>"; };
+		93087FC02B89098100F60453 /* ActivityPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityPage.swift; sourceTree = "<group>"; };
+		93087FC22B89099D00F60453 /* AccountPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountPage.swift; sourceTree = "<group>"; };
+		93087FC42B8C68BB00F60453 /* TransactionActivityItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionActivityItem.swift; sourceTree = "<group>"; };
+		93087FCE2B8CEC0000F60453 /* AccountRightArrow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountRightArrow.swift; sourceTree = "<group>"; };
+		93087FD02B8CEC1B00F60453 /* AccountListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountListItem.swift; sourceTree = "<group>"; };
+		93087FD22B8CEC6800F60453 /* AccountHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountHeader.swift; sourceTree = "<group>"; };
 		93E84C2F2B615AAD00D4FEE6 /* Splitter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Splitter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93E84C322B615AAD00D4FEE6 /* SplitterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitterApp.swift; sourceTree = "<group>"; };
-		93E84C342B615AAD00D4FEE6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		93E84C342B615AAD00D4FEE6 /* Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
 		93E84C362B615AAE00D4FEE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		93E84C392B615AAE00D4FEE6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		93E84C3F2B615AAE00D4FEE6 /* SplitterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SplitterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +63,7 @@
 		93E84C492B615AAF00D4FEE6 /* SplitterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SplitterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		93E84C4D2B615AAF00D4FEE6 /* SplitterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitterUITests.swift; sourceTree = "<group>"; };
 		93E84C4F2B615AAF00D4FEE6 /* SplitterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		93E84C5D2B615C8B00D4FEE6 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +91,70 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		93087FC62B8CDA3000F60453 /* Activity */ = {
+			isa = PBXGroup;
+			children = (
+				93087FC72B8CDA5F00F60453 /* Components */,
+				93087FC02B89098100F60453 /* ActivityPage.swift */,
+			);
+			path = Activity;
+			sourceTree = "<group>";
+		};
+		93087FC72B8CDA5F00F60453 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				93087FC42B8C68BB00F60453 /* TransactionActivityItem.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		93087FC92B8CDB2000F60453 /* Friends */ = {
+			isa = PBXGroup;
+			children = (
+				93087FBC2B89090E00F60453 /* FriendsPage.swift */,
+			);
+			path = Friends;
+			sourceTree = "<group>";
+		};
+		93087FCA2B8CDB3500F60453 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				93087FCC2B8CDB4100F60453 /* Groups */,
+				93087FCB2B8CDB3B00F60453 /* Account */,
+				93087FC62B8CDA3000F60453 /* Activity */,
+				93087FC92B8CDB2000F60453 /* Friends */,
+				93087FBA2B88FB4500F60453 /* Dashboard.swift */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		93087FCB2B8CDB3B00F60453 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				93087FCD2B8CEBE700F60453 /* Components */,
+				93087FC22B89099D00F60453 /* AccountPage.swift */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		93087FCC2B8CDB4100F60453 /* Groups */ = {
+			isa = PBXGroup;
+			children = (
+				93087FBE2B89094D00F60453 /* GroupsPage.swift */,
+			);
+			path = Groups;
+			sourceTree = "<group>";
+		};
+		93087FCD2B8CEBE700F60453 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				93087FCE2B8CEC0000F60453 /* AccountRightArrow.swift */,
+				93087FD02B8CEC1B00F60453 /* AccountListItem.swift */,
+				93087FD22B8CEC6800F60453 /* AccountHeader.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		93E84C262B615AAD00D4FEE6 = {
 			isa = PBXGroup;
 			children = (
@@ -94,8 +178,10 @@
 		93E84C312B615AAD00D4FEE6 /* Splitter */ = {
 			isa = PBXGroup;
 			children = (
+				93087FCA2B8CDB3500F60453 /* Pages */,
+				93E84C5C2B615C7800D4FEE6 /* Extensions */,
 				93E84C322B615AAD00D4FEE6 /* SplitterApp.swift */,
-				93E84C342B615AAD00D4FEE6 /* ContentView.swift */,
+				93E84C342B615AAD00D4FEE6 /* Calculator.swift */,
 				93E84C362B615AAE00D4FEE6 /* Assets.xcassets */,
 				93E84C382B615AAE00D4FEE6 /* Preview Content */,
 			);
@@ -125,6 +211,14 @@
 				93E84C4F2B615AAF00D4FEE6 /* SplitterUITestsLaunchTests.swift */,
 			);
 			path = SplitterUITests;
+			sourceTree = "<group>";
+		};
+		93E84C5C2B615C7800D4FEE6 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				93E84C5D2B615C8B00D4FEE6 /* Color.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +351,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93E84C352B615AAD00D4FEE6 /* ContentView.swift in Sources */,
+				93E84C352B615AAD00D4FEE6 /* Calculator.swift in Sources */,
 				93E84C332B615AAD00D4FEE6 /* SplitterApp.swift in Sources */,
+				93087FCF2B8CEC0000F60453 /* AccountRightArrow.swift in Sources */,
+				93087FBF2B89094D00F60453 /* GroupsPage.swift in Sources */,
+				93E84C5E2B615C8B00D4FEE6 /* Color.swift in Sources */,
+				93087FC12B89098100F60453 /* ActivityPage.swift in Sources */,
+				93087FD12B8CEC1B00F60453 /* AccountListItem.swift in Sources */,
+				93087FC52B8C68BB00F60453 /* TransactionActivityItem.swift in Sources */,
+				93087FD32B8CEC6800F60453 /* AccountHeader.swift in Sources */,
+				93087FBB2B88FB4500F60453 /* Dashboard.swift in Sources */,
+				93087FC32B89099D00F60453 /* AccountPage.swift in Sources */,
+				93087FBD2B89090E00F60453 /* FriendsPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
